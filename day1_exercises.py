@@ -1,6 +1,13 @@
 # ============================================
 # DZIEŃ 1 - PODSTAWY PYTHONA
+# Python 3.14.4 - Perfect for AI/ML!
 # ============================================
+
+import sys
+
+print(f"Python wersja: {sys.version}")
+print(f"Python wersja (krótka): {sys.version_info.major}.{sys.version_info.minor}")
+print()
 
 # 1. WYŚWIETLANIE TEKSTU
 print("Hello World!")
@@ -30,7 +37,7 @@ print(f"{a} % {b} = {a % b}")    # reszta z dzielenia
 print(f"{a} ** {b} = {a ** b}")  # potęga
 
 # 4. LISTY
-zwierzęta = ["kot", "pies", "słonie"]
+zwierzęta = ["kot", "pies", "słoń"]
 print(f"\nZwierzęta: {zwierzęta}")
 print(f"Pierwsze: {zwierzęta[0]}")
 print(f"Ostatnie: {zwierzęta[-1]}")
@@ -99,12 +106,6 @@ print(f"5 / 3 = {podziel(5, 3)}")
 # ============================================
 # ZADANIE DOMOWE - WYKONAJ SAM!
 # ============================================
-
-# 1. Stwórz zmienną "miasto" i wydrukujej
-# 2. Stwórz listę z 3 Twoimi ulubionymi jedzeniami
-# 3. Stwórz słownik z danymi o sobie (imie, wiek, miasto, hobby)
-# 4. Napisz funkcję która powie Ci ile masz lat w miesiącach
-# 5. Napisz program który pyta o imię i wiek, a potem wyświetla powitanie
 
 print("\n" + "="*40)
 print("ZADANIE DOMOWE - WYKONAJ SAM!")
