@@ -4,7 +4,7 @@
 # ============================================
 
 import sys
-
+        
 print(f"Python wersja: {sys.version}")
 print(f"Python wersja (krótka): {sys.version_info.major}.{sys.version_info.minor}")
 print()
