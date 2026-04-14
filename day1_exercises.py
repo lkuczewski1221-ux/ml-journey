@@ -117,3 +117,26 @@ print("""
 4. Napisz funkcję która powie Ci ile masz lat w miesiącach
 5. Napisz program który pyta o imię i wiek, a potem wyświetla powitanie
 """)
+
+miasto = "Warszawa"
+print(f"\nMiasto: {miasto}")
+jedzenie = ["stek", "pizza", "szpargi"]
+print(f"\nJedzenie: {jedzenie}")
+
+osoba = {
+    "imie": "Stefan",
+    "wiek": 36,
+    "miasto": "Warszawa",
+    "hobby": "Szukanie fazy"
+}
+
+def wiek_w_miesiacach(lata):
+    miesiace = lata * 12
+    return miesiace
+
+print(f"\nWiek w miesiącach (36 lat): {wiek_w_miesiacach(36)}")
+
+imie = input("\nPodaj swoje imię: ")
+wiek = int(input("Podaj swój wiek: "))
+print(f"\nCześć, {imie}! Masz {wiek} lat. W miesiacach to {wiek_w_miesiacach(wiek)} miesięcy!")
+
