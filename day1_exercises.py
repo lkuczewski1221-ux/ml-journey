@@ -1,0 +1,118 @@
+# ============================================
+# DZIEŃ 1 - PODSTAWY PYTHONA
+# ============================================
+
+# 1. WYŚWIETLANIE TEKSTU
+print("Hello World!")
+print("Witaj w świecie Pythona!")
+
+# 2. ZMIENNE I TYPY DANYCH
+imie = "Jan"
+wiek = 25
+wzrost = 175.5
+czy_programuje = True
+
+print(f"\nImię: {imie}")
+print(f"Wiek: {wiek}")
+print(f"Wzrost: {wzrost} cm")
+print(f"Czy programuje: {czy_programuje}")
+
+# 3. OPERACJE MATEMATYCZNE
+a = 10
+b = 3
+
+print(f"\n{a} + {b} = {a + b}")
+print(f"{a} - {b} = {a - b}")
+print(f"{a} * {b} = {a * b}")
+print(f"{a} / {b} = {a / b}")
+print(f"{a} // {b} = {a // b}")  # dzielenie całkowite
+print(f"{a} % {b} = {a % b}")    # reszta z dzielenia
+print(f"{a} ** {b} = {a ** b}")  # potęga
+
+# 4. LISTY
+zwierzęta = ["kot", "pies", "słonie"]
+print(f"\nZwierzęta: {zwierzęta}")
+print(f"Pierwsze: {zwierzęta[0]}")
+print(f"Ostatnie: {zwierzęta[-1]}")
+
+zwierzęta.append("ptak")
+print(f"Po dodaniu: {zwierzęta}")
+
+# 5. SŁOWNIKI
+osoba = {
+    "imie": "Jan",
+    "wiek": 25,
+    "miasto": "Warszawa"
+}
+
+print(f"\nOsoba: {osoba}")
+print(f"Imię: {osoba['imie']}")
+print(f"Wiek: {osoba['wiek']}")
+
+# 6. WARUNKI
+wiek_uzytkownika = 20
+
+if wiek_uzytkownika >= 18:
+    print("\nJesteś pełnoletni!")
+else:
+    print("\nJesteś niepełnoletni!")
+
+# 7. PĘTLE
+print("\nLiczby od 1 do 5:")
+for i in range(1, 6):
+    print(f"  {i}")
+
+print("\nLiczby od 5 do 1:")
+for i in range(5, 0, -1):
+    print(f"  {i}")
+
+# 8. FUNKCJE
+def powitaj(imie):
+    """Funkcja witająca"""
+    return f"Cześć, {imie}!"
+
+print(f"\n{powitaj('Anna')}")
+print(f"{powitaj('Adam')}")
+
+# 9. WŁASNA FUNKCJA - KALKULATOR
+def dodaj(a, b):
+    return a + b
+
+def odejmij(a, b):
+    return a - b
+
+def pomnoz(a, b):
+    return a * b
+
+def podziel(a, b):
+    if b != 0:
+        return a / b
+    else:
+        return "Nie można dzielić przez zero!"
+
+print(f"\nKalkulator:")
+print(f"5 + 3 = {dodaj(5, 3)}")
+print(f"5 - 3 = {odejmij(5, 3)}")
+print(f"5 * 3 = {pomnoz(5, 3)}")
+print(f"5 / 3 = {podziel(5, 3)}")
+
+# ============================================
+# ZADANIE DOMOWE - WYKONAJ SAM!
+# ============================================
+
+# 1. Stwórz zmienną "miasto" i wydrukujej
+# 2. Stwórz listę z 3 Twoimi ulubionymi jedzeniami
+# 3. Stwórz słownik z danymi o sobie (imie, wiek, miasto, hobby)
+# 4. Napisz funkcję która powie Ci ile masz lat w miesiącach
+# 5. Napisz program który pyta o imię i wiek, a potem wyświetla powitanie
+
+print("\n" + "="*40)
+print("ZADANIE DOMOWE - WYKONAJ SAM!")
+print("="*40)
+print("""
+1. Stwórz zmienną "miasto" i wydrukujej
+2. Stwórz listę z 3 Twoimi ulubionymi jedzeniami
+3. Stwórz słownik z danymi o sobie (imie, wiek, miasto, hobby)
+4. Napisz funkcję która powie Ci ile masz lat w miesiącach
+5. Napisz program który pyta o imię i wiek, a potem wyświetla powitanie
+""")
