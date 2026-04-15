@@ -92,6 +92,17 @@ def pomnoz(a, b):
     return a * b
 
 def podziel(a, b):
+    """
+    Dzieli a przez b.
+
+    Args:
+        a (float): Licznik.
+        b (float): Mianownik.
+
+    Returns:
+        float: Wynik dzielenia jeśli b != 0.
+        str: Komunikat o błędzie jeśli b == 0.
+    """
     if b != 0:
         return a / b
     else:
@@ -101,7 +112,11 @@ print(f"\nKalkulator:")
 print(f"5 + 3 = {dodaj(5, 3)}")
 print(f"5 - 3 = {odejmij(5, 3)}")
 print(f"5 * 3 = {pomnoz(5, 3)}")
-print(f"5 / 3 = {podziel(5, 3)}")
+wynik_podziel = podziel(5, 3)
+if wynik_podziel is not None:
+    print(f"5 / 3 = {wynik_podziel}")
+else:
+    print("5 / 3 = Nie można dzielić przez zero!")
 
 # ============================================
 # ZADANIE DOMOWE - WYKONAJ SAM!
