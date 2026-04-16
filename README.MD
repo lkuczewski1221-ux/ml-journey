@@ -8,7 +8,7 @@
 - ✅ Git i GitHub
 
 ### Dzień 2 - Zmienne i Operatory
-- 📝 W trakcie...
+- ✅ Zmienne i Operatory
 
 ### Dzień 3 - Struktury Danych
 - 📝 Planowane
@@ -25,14 +25,14 @@
 ---
 
 ## 🎯 Cel 30 Dni
-- [ ] Tydzień 1: Python Basics
+- [x] Tydzień 1: Python Basics
 - [ ] Tydzień 2: Data Science
 - [ ] Tydzień 3: Machine Learning
 - [ ] Tydzień 4: Deep Learning
 
 ---
 
-**Zacząłem:** 2026-04-14 
+**Zacząłem:** 2026-04-14  
 **MacBook Pro M5 Pro 24GB RAM**  
 **Python 3.14.4**  
 **Git + GitHub**
